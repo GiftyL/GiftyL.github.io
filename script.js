@@ -93,9 +93,6 @@ let geocode = {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(success,'weather.fetchWeather("Adama") );
     }
-    else {
-      weather.fetchWeather("Adama");
-    }
   }
 };
 
