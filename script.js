@@ -91,11 +91,9 @@ let geocode = {
       geocode.reverseGeocode(data.coords.latitude, data.coords.longitude);
     }
     if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(success, console.error);
+      navigator.geolocation.getCurrentPosition (success, console.error);
     }
-    else {
-      weather.fetchWeather("Adama");
-    }
+    
   }
 };
 
