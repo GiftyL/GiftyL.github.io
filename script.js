@@ -10,7 +10,7 @@ let weather = {
       .then((response) => {
         if (!response.ok) {
           alert("Enter your location.");
-          throw new Error("Enter your location.");
+          
         }
         return response.json();
       })
@@ -32,7 +32,7 @@ let weather = {
       "Wind speed: " + speed + " km/h";
     document.querySelector(".weather").classList.remove("loading");
     document.body.style.backgroundImage =
-      "url("https://source.unsplash.com/1600x900/?" + name + "')";
+      "url('https://source.unsplash.com/1600x900/?" + name + "')";
   },
   search: function () {
     this.fetchWeather(document.querySelector(".search-bar").value);
@@ -91,7 +91,7 @@ let geocode = {
       geocode.reverseGeocode(data.coords.latitude, data.coords.longitude);
     }
     if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition (success, console.error);
+      navigator.geolocation.getCurrentPosition(success, console.error);
     }
     
   }
