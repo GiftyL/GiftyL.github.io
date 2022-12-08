@@ -6,7 +6,7 @@
 ![Capture](https://user-images.githubusercontent.com/99997009/206373918-a7a00488-e289-475b-b2b0-b5c24ef1f3c0.JPG)
 - You can find [LinkedIn profile here](https://www.linkedin.com/in/gifty-lelissa-275928177)
 * You can find [deployed website here](https://giftyl.github.io/)
-* 
+
 ## **Inspiration**
 For this project I wanted to design a website that uses an API. I wanted to design my first website to test and challenge myself. With available time that was given for this project i choose to do a simple weather website.
 
@@ -17,6 +17,6 @@ When you first open the website it asks you to grant it your location permission
 
 ## **Developer**
 - [Gifti Lelisa-Github](https://github.com/GiftyL)
-- 
+
 ## **License**
 **ALX-SE**
